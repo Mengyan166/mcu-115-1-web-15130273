@@ -78,8 +78,23 @@ header .container .header-inner div.search button {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0.5rem;
-  background-color: var(--gray-color-100);
+  border: none;
+  background-color: #f3f4f6;
   cursor: pointer;
+}
+header .container .header-inner button {
+  background-color: transparent;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+header .material-symbols-outlined {
+  font-size: 1.5rem;
+  line-height: 1;
 }
 
 :root {
@@ -93,4 +108,4 @@ html,
 body {
   margin: 0;
   padding: 0;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
