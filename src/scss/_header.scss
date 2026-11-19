@@ -41,9 +41,9 @@ header {
     }
 
     nav {
-      display: flex;
       flex-wrap: wrap;
       gap: 1.5rem;
+      display: var(--nav-display);
     }
 
     label[for="book-search"] {
