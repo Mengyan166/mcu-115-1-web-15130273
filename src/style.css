@@ -30,6 +30,10 @@ a:focus-visible {
 
 header {
   border-bottom: solid 1px var(--border-color);
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 header .header-inner {
   height: 4rem;
@@ -243,6 +247,7 @@ footer p {
 
 :root {
   --primary-color: #137fec;
+  --background-color: #f6f7f8;
   --text-color: #4b5563;
   --border-color: #e5e7eb;
   --gray-color-100: #f3f4f6;
@@ -254,4 +259,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
 }/*# sourceMappingURL=style.css.map */
