@@ -155,8 +155,8 @@ header .material-symbols-outlined {
 }
 .category-sidebar h2 {
   margin: 0;
-  font-weight: 500;
   font-size: 1.125rem;
+  font-weight: 500;
   line-height: 1.75rem;
   color: var(--header-color);
 }
@@ -193,8 +193,8 @@ header .material-symbols-outlined {
 }
 .book-main h1 {
   margin: 0 0 1.5rem;
-  font-weight: 600;
   font-size: 1.875rem;
+  font-weight: 600;
   line-height: 2.25rem;
   color: var(--header-color);
 }
@@ -309,6 +309,7 @@ footer .footer-nav {
 footer p {
   color: var(--text-color);
   font-size: 0.875rem;
+  font-weight: 400;
   line-height: 1.25rem;
 }
 
